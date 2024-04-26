@@ -5,9 +5,10 @@
 - JDK 8
 - SpringBoot 3.2.5
 - SpringDoc 2.5.0
+- Postgres SQL
 - Maven 4.0.0
 
 ## Инструкция по запуску
-1. в API-модуле изменить аутенфикационные данные для подлкючения к PostgreSQL application.yml
+1. в API-модуле изменить аутенфикационные данные для подлкючения к Postgres SQL application.yml
 2. Запустить API-модуль из класса Application.java
 3. По адресу http://localhost:8080/swagger-ui/index.html выолнить тестовые запросы к серверу
